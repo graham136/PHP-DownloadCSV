@@ -1,6 +1,5 @@
 <?php
-require 'connection.php';
-$tempid = $_GET['id'];
+require 'yourDBconnection.php';
 
 $conn    = Connect();
 $sql = "SELECT * FROM youtable where yourcolumn='$yourvalue'";
